@@ -1,0 +1,470 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body {
+		padding-top: 0px;
+		background-image: image(url="assets/terre.jpg");
+}
+.container1{
+	padding-top: 0px;
+	height: 2200px;
+	width: absolute;
+	background-image: image(url="assets/terre.jpg");
+	
+	//background-color: 
+//	background: url(assets/terre.jpg);
+}
+.container2{
+	padding-top: 400px;
+	height: 20px;
+	//width: absolute;
+	//background-image: image(url="assets/bbbbbbbbb.jpg");
+//	background: url(assets/hh.jpg);
+	background-repeat: no-repeat;
+	background: url(assets/e1.jpg) no-repeat center center fixed;
+
+-webkit-background-size: cover;
+
+-moz-background-size: cover;
+
+-o-background-size: cover;
+
+background-size: cover;
+	
+}
+
+.container3{
+	padding-top: 400px;
+	height: 20px;
+	//width: absolute;
+	//background-image: image(url="assets/bbbbbbbbb.jpg");
+//	background: url(assets/hh.jpg);
+	background-repeat: no-repeat;
+	background: url(assets/aa54.jpg) no-repeat center center fixed;
+
+-webkit-background-size: cover;
+
+-moz-background-size: cover;
+
+-o-background-size: cover;
+
+background-size: cover;
+	
+}
+
+.container4{
+	padding-top: 400px;
+	height: 20px;
+	//width: absolute;
+	//background-image: image(url="assets/bbbbbbbbb.jpg");
+//	background: url(assets/hh.jpg);
+	background-repeat: no-repeat;
+	background: url(assets/aa66.jpg) no-repeat center center fixed;
+
+-webkit-background-size: cover;
+
+-moz-background-size: cover;
+
+-o-background-size: cover;
+
+background-size: cover;
+	
+}
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	width: 900px;
+	
+}
+.container3{
+	background-color: aqua;
+}
+.container4{
+	background-color: aqua;
+}
+
+
+#sidebars-area{
+	width:368px;
+	margin-left: 0px;
+	//float:left;
+	flex: 1 1 auto;
+	background-color: aqua;
+	}
+	#sidebars{
+	width:68px;
+	padding-left:0px;
+	padding-bottom: 300px;
+	float:left;
+	}
+	
+	#sidebar {
+		width:160px;
+		padding-left:0px;
+		margin-top:0px;
+		margin-left:0px;
+		//float:left;
+	}
+
+
+
+	
+	
+
+
+//.containerfooter{
+//padding-bottom: 0px;
+//padding-top: 50px;
+
+//}
+
+.panel-login {
+	border-color: #ccc;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+	color: #00415d;
+	background-color: #fff;
+	border-color: #fff;
+	text-align:center;
+}
+.panel-login>.panel-heading a{
+	text-decoration: none;
+	color: #666;
+	font-weight: bold;
+	font-size: 15px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+	color: #029f5b;
+	font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	height: 45px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+	outline:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #ccc;
+}
+.btn-login {
+	background-color: #59B2E0;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #59B2E6;
+}
+.btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #53A3CD;
+	border-color: #53A3CD;
+}
+.forgot-password {
+	text-decoration: underline;
+	color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: underline;
+	color: #666;
+}
+
+.btn-register {
+	background-color: #1CB94E;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #1CB94A;
+}
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color: #1CA347;
+	border-color: #1CA347;
+}
+//.footer{
+	//.containerfooter{
+	//margin-bottom: 0px;
+	//padding-top: 50px;}
+
+	
+		//background-color: #D1C4E9;
+		//padding-bottom: 0px;
+    //margin: 0px auto;
+    //padding: 200px 100px 200px 0px; 
+//}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  
+  
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  
+.big-banner{
+	background-image: url('assets/aa55.jpg');
+	background-size: cover;
+	height: 950px;
+	weight:600px;
+
+}
+
+button{  
+	padding: 10px;
+	margin: 0px;
+	background-color: red;
+	border-radius: 100px;
+	cursor: pointer;
+	border: 0px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }
+
+
+
+
+
+.line {fill:none; stroke:black;stroke-width: 1.5;}
+.line-0 {fill:none; stroke:#1f77b4;stroke-width: 1.5;stroke-dasharray:4,10;}
+.line-1 {fill:none; stroke:#ff7f0e;stroke-width: 1.5;stroke-dasharray:2,5.10;}
+.line-2 {fill:none; stroke:#2ca02c;stroke-width: 1.5;}
+.line-3 {fill:none; stroke:#d62728;stroke-width: 1.5;}
+.line-4 {fill:none; stroke:#9467bd;stroke-width: 1.5;}
+.line-5 {fill:none; stroke:#8c564b;stroke-width: 1.5;}
+.line-6 {fill:none; stroke:#e377c2;stroke-width: 1.5;}
+.line-7 {fill:none; stroke:#7f7f7f;stroke-width: 1.5;}
+.line-8 {fill:none; stroke:#bcbd22;stroke-width: 1.5;}
+.line-9 {fill:none; stroke:b#17becf;stroke-width: 1.5;}
+
+.bar { fill:#aaa; stroke:white;stroke-width: 1;}
+.bar-value { fill:black;font-size: 8pt;}
+.name { font-size: 10pt;text-anchor: middle}
+path {fill:white;stroke:black;stroke-width:0.5;}
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+}
+.axis_x line {
+    fill: none;
+    stroke: black;
+}
+.chart-title { fill:red;font-size: 18pt;text-anchor: middle;}
+.histogram-bar{fill:blue; stroke:white;stroke-width: 1;}
+.axis-x-text{ fill:blue;font-size: 12pt;}
+.treemap { stroke:black;fill:#777}		
+.treemap-label { font-size: 10pt;text-anchor: middle}
+.packlayout{ stroke:black;}
+.packlayout-label{ font-size: 10pt;text-anchor: middle}
+.pie-inner-title {font-size:9pt;text-anchor:middle;}
+.pieNum {font-size:10pt;text-anchor:middle;}
+.grid {stroke:gray;stroke-dasharray: 4,2;shape-rendering:crispEdges}
+
+.tree-node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 3px;
+}
+.tree-node text { 
+    font: 12px sans-serif; 
+}
+.tree-node-internal text {
+    text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+.tree-node-link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+}
+.force-links line {
+stroke: #999;
+stroke-opacity: 0.6;
+}
+
+.force-nodes circle {
+stroke: #fff;
+stroke-width: 1.5px;
+}
+
+
+
+
+
+
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}

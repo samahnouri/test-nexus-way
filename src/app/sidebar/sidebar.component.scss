@@ -1,0 +1,33 @@
+#sidebar ul h2{
+	font:14px 'times new roman';
+	color:#ffffff;
+	text-align:center;
+	font-weight:bold;
+	padding:10px 0 0 0px;
+	height:33px;
+	margin:0;
+	border:none;
+	//background:url(images/topbar.gif) no-repeat top left;
+}
+
+#sidebar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin:0;
+	padding:0;	
+}
+#sidebar ul li ul {
+	margin: 0 0 10px 0;
+	padding:0;
+}
+#sidebar ul ul li {
+	list-style-type: none;
+	margin-left:0px;
+	list-style-image: none;
+	color:#c4c4c4;
+	padding:5px 0 5px 0px;
+	margin-left:10px;
+	font:12px arial;
+	width:150px;
+	
+}
