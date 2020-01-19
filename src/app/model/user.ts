@@ -10,8 +10,5 @@ export class User {
     lastname: string;
     email: string;
     password: string;
-    job:string;
-    phone:number;
-    autorisation :string;
-    datenaissance : Date;
+  
 }

@@ -41,19 +41,7 @@ private _sessionId: string;
     this.router.navigate(["home-admin"]);
 
   }
-  /*onSubmit(user){
-    this.user=user;
-    console.log(this.user.password);
-    localStorage.setItem('isLoggedIn',"true");
-    localStorage.setItem('token',user.password);
-    alert(JSON.stringify(this.model));
-    console.log(JSON.stringify(this.model))
-    this.router.navigate(["home"]);
 
-     
-
-    
-  }*/
   logout(){
     localStorage.clear();
     this.toastr.error("loggedout "+ "token:" +localStorage.getItem('token'));
@@ -69,7 +57,7 @@ private _sessionId: string;
 
     /******************************************** */
     /********************************************* */
-    this.userService.popup(user).subscribe((useer)=>{console.log( "aaaaaaaaaa" +useer.refresh_token+ "ùùùùùùùù");
+    this.userService.postmail(user).subscribe((useer)=>{console.log( "" +useer.refresh_token+ "");
     if(useer!=null){
       this.usere = useer;
     console.log(this.user.password);
@@ -81,19 +69,17 @@ private _sessionId: string;
     console.log(JSON.stringify(this.model));
     this.isLogged=true;
     console.log(this.isLogged+'*************');
-    this.toastr.success("Bienvenu ton mail est  "+localStorage.getItem('token'));
-    this.router.navigate(["create-compte"]);
+    this.toastr.success("Hello your token  is  "+localStorage.getItem('token'));
+    this.router.navigate(["home-admin"]);
     this.user1=useer;
-    console.log(this.user1.autorisation+"auuuuuuuuuuuuuuut");
-    if(this.user1.autorisation=="admin"){
-      this.router.navigate(["home-admin"]);
-    }
+    console.log(this.user1.autorisation+"");
+  
   
    
   
   }
     else{
-      this.toastr.error("mail non encore enregistré");
+      this.toastr.error("mail not reistered !");
     }
   })
     
